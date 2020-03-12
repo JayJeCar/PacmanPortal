@@ -79,7 +79,7 @@ class Game:
         # Start each new ship at the bottom center of the screen.
         self.rect.midtop = self.screen_rect.midtop
         self.screen.blit(self.image, self.rect)
-        self.draw_text('PLAY GAME', self.settings.start_text_size, [self.settings.WIDTH//2, self.settings.HEIGHT//2 + 100],
+        self.draw_text('PLAY GAME - Press Space Bar', self.settings.start_text_size, [self.settings.WIDTH//2, self.settings.HEIGHT//2 + 100],
                        self.settings.initial_text_color, self.settings.font_type, centered=True)
         self.draw_text('HIGH SCORES', self.settings.start_text_size, [self.settings.WIDTH // 2 - 55, self.settings.HEIGHT //2 + 150],
                        self.settings.initial_text_color, self.settings.font_type)
